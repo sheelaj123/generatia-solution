@@ -4,7 +4,6 @@ import streamlit as st
 import os
 import textwrap
 import google.generativeai as genai
-from pydub import AudioSegment
 import io
 import pandas as pd
 import matplotlib.pyplot as plt
