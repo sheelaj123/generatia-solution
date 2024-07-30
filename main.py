@@ -116,7 +116,7 @@ def generate_image(prompt):
     return image
 
 # Set the page configuration
-st.set_page_config(page_title="GiNi Official Website", page_icon="🧠")
+st.set_page_config(page_title="Generatia Official Website", page_icon="🧠")
 
 # HTML and CSS for zig-zag text animation
 html_code = """
@@ -148,7 +148,7 @@ html_code = """
 <div>
 <br>
 </div>
-<div class="zigzag-text">Welcome to GiNi Official Website</div>
+<div class="zigzag-text">Welcome to Generatia Official Website</div>
 """
 
 # Embed the HTML and CSS code into the Streamlit app
@@ -191,7 +191,7 @@ st.markdown('<h3 style="text-align:center; padding: 10px;">Gen-Ai Tech Solutions
 # Add the custom HTML element after the title
 # # Add the image after the title
 # image_url = "https://zealousys.com.au/wp-content/uploads/2024/01/AI-is-Reshaping-Australian-eCommerce-Industry.webp"  # Replace with the actual image URL
-# st.image(image_url, caption="GiNi Gen-Ai")
+# st.image(image_url, caption="Generatia Gen-Ai")
 
 # Add CSS to center the title
 st.markdown(
