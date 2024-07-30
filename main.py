@@ -316,7 +316,54 @@ elif option == "Generate Images":
         download_link = f"<a href='data:image/png;base64, {img_str}' download='image.png'>Download Image</a>"
         st.markdown(download_link, unsafe_allow_html=True)
 
+st.markdown(
+    """
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p {
+            margin: 0;
+        }
+    </style>
+    <div>
+    </div>
+    <div>
+    </div>
+    <div>
+    </div>
+    <div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
+    <div class="footer">
+    <p>© 2024 Generatia. All rights reserved.</p>
+    <p>Website Owned and Managed by SHEELAJ @2024</p>
+
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # from langchain.llms import OpenAI
 # from dotenv import load_dotenv
