@@ -4,7 +4,6 @@ import streamlit as st
 import os
 import textwrap
 import google.generativeai as genai
-import speech_recognition as sr
 from pydub import AudioSegment
 import io
 import pandas as pd
