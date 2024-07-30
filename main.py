@@ -9,7 +9,6 @@ import pandas as pd
 import requests
 from PIL import Image
 from io import BytesIO
-from transformers import pipeline
 import streamlit.components.v1 as components
 # Load environment variables
 load_dotenv()
